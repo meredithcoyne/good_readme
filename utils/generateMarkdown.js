@@ -49,7 +49,7 @@ function generateMarkdown(data) {
   - [Questions](#questions)
   
   ## Installation
-  Run the following commands for project to:
+  ${data.installation}
 
   ## Usage
   ${data.usage}
@@ -60,21 +60,23 @@ function generateMarkdown(data) {
   ## Contribution
   ${data.contribution}
 
-  ## Testing
+  ## Test
   ${data.test}
   ---
   
   ## Questions
   For any questions, please contact me via github or e-mail. 
-  GitHub: ${data.github}
-  E-mail: ${data.email}
+
+  * Checkout my [GitHub profile](https://github.com/${data.github})
+  
+  * Any additional questions or feed back, feel free to [send an email](mailto:${data.email}). 
   
   ##Demo
 
 
   ## Website 
   Deployed: ${data.deployed}
-  Repository: ${data.repo}
+  Repository: ${data.repository}
 
 `;
   return markdownRender;

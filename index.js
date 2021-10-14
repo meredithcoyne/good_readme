@@ -64,7 +64,7 @@ const questions = [
 
     {
         type: 'input',
-        name: 'repo',
+        name: 'repository',
         message: 'What is the Repository Link?'
        
     },
