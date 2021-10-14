@@ -1,8 +1,8 @@
 
-  # j
-  ![License Badge](https://img.shields.io/github/license/j/undefined)
+  # README Generator
+  ![License Badge](https://img.shields.io/github/license/meredithcoyne/https://github.com/meredithcoyne/good_readme/settings/pages)
   ## Description
-  j
+  k
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -15,20 +15,27 @@
   Run the following commands for project to:
 
   ## Usage
-  j
+  x
 
   ## License
   This application is licensed under MIT.
 
   ## Contribution
-  j
+  x
 
   ## Testing
   undefined
   ---
   
-  ## Questions?
+  ## Questions
   For any questions, please contact me via github or e-mail. 
-  GitHub: j
-  E-mail: j
+  GitHub: meredithcoyne
+  E-mail: meredithleigh.coyne@gmail.com
   
+  ##Demo
+
+
+  ## Website 
+  Deployed: https://meredithcoyne.github.io/good_readme/
+  Repository: https://github.com/meredithcoyne/good_readme/settings/pages
+

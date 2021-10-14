@@ -14,7 +14,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'What is the project about?  GIve a detailed description of your project.'
+        message: 'What is the project about?  Give a detailed description of your project.'
         
     },
  
@@ -37,7 +37,7 @@ const questions = [
     {
         type: 'input',
         name: 'license',
-        message: 'What license is being used?',
+        message: 'What license is being used? (MIT,  GNU, or Apache)',
         choices: ['MIT', 'GNU', 'Apache']
     },
 
