@@ -6,11 +6,8 @@ function renderLicenseBadge(data) {
   } else if (data == 'APACHE 2.0') {
     return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]`;
 
-  } else if (data == 'GPL 3.0') {
-    return `[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]`;
-
-  } else if (data == 'BSD 3') {
-    return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]`;
+  } else if (data == 'GNU 3.0') {
+    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
 
   } else if (data == 'None') {
     return '';
@@ -26,30 +23,21 @@ function renderLicenseLink(data) {
   } else if (data == 'APACHE 2.0') {
     return `${renderLicenseBadge}(https://opensource.org/licenses/Apache-2.0)`;
 
-  } else if (data == 'GPL 3.0') {
+  } else if (data == 'GNU 3.0') {
     return `${renderLicenseBadge}(https://www.gnu.org/licenses/gpl-3.0)`;
 
-  } else if (data == 'BSD 3') {
-    return `${renderLicenseBadge}(https://opensource.org/licenses/BSD-3-Clause)`;
 
   } else if (data == 'None') {
     return '';
   }
 }
 
-// If there is no license, return an empty string
-function renderLicenseSection(data) {
-  renderLicenseLink();
-  if (data === '') {
-    return '';
-  }
-}
 
 function generateMarkdown(data) {
 
   let markdownRender = `
   # ${data.title}
-  ![License Badge](https://img.shields.io/static/v1?label=License&message=${data.license.split(' ').join('-')}&color=success)
+  ![License Badge](https://img.shields.io/github/license/${data.github}/${data.repo})
   ## Description
   ${data.description}
   ## Table of Contents
@@ -71,7 +59,7 @@ function generateMarkdown(data) {
 
   ## Contribution
   ${data.contribution}
-  
+
   ## Testing
   ${data.test}
   ---
