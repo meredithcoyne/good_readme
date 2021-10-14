@@ -18,6 +18,56 @@ const questions = [
         
     },
  
+       
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What does the user need to install to run this app?'
+        
+       
+    },
+
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'How is the app used?'
+        
+    },
+
+    {
+        type: 'input',
+        name: 'license',
+        message: 'What license is being used?',
+        choices: ['MIT', 'GNU', 'Apache']
+    },
+
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'Who contributed to the project?'
+       
+    },
+
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'What commands are needed to test this app?'
+       
+    },
+
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub username?'
+       
+    },
+
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
+    
+    }
 ];
 
 

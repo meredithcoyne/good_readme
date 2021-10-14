@@ -1,8 +1,8 @@
 
-  # f
-  ![License Badge](https://img.shields.io/github/license/undefined/undefined)
+  # j
+  ![License Badge](https://img.shields.io/github/license/meredith.coyne/undefined)
   ## Description
-  f
+  j
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -15,10 +15,10 @@
   Run the following commands for project to:
 
   ## Usage
-  undefined
+  j
 
   ## License
-  This application is licensed under undefined.
+  This application is licensed under MIT.
 
   ## Contribution
   undefined
@@ -29,6 +29,6 @@
   
   ## Questions?
   For any questions, please contact me via github or e-mail. 
-  GitHub: undefined
-  E-mail: undefined
+  GitHub: meredith.coyne
+  E-mail: meredith.coyne
   
