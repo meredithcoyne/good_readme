@@ -1,0 +1,23 @@
+{
+  "name": "good_readme",
+  "version": "1.0.0",
+  "description": "A readme template that can be created through node js that auto inputs through specific commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meredithcoyne/good_readme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meredithcoyne/good_readme/issues"
+  },
+  "homepage": "https://github.com/meredithcoyne/good_readme#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
