@@ -1,7 +1,5 @@
 const fs = require('fs');
-const path = require('path');
 const inquirer = require('inquirer');
-// const emailValidator = require('email-validator');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 //questions to fill out README
@@ -68,21 +66,19 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function (err) {
-        if (err) {
-            console.log(err);
-        } else {
-            console.log('README file successfully created!');
-        }
-    })
-};
+    fs.writeFile(fileName, generateMarkdown(data), (err) =>
+    err ? console.error(err) : console.log('Success! Your README file has been created.')
+
+)}
+
 
 // function initializes program
 function init() {
-    inquirer.prompt(questions).then(function(data) {
-        writeToFile("README.md", generateMarkdown(data));
-    })
-};
+    inquirer   
+        .prompt(questions).then((answers) => {
+            writeToFile('README.md', answers)
+        })
+}
 
 
 
