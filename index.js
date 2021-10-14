@@ -57,6 +57,20 @@ const questions = [
 
     {
         type: 'input',
+        name: 'deployed',
+        message: 'What is the Deployed Link?'
+       
+    },
+
+    {
+        type: 'input',
+        name: 'repo',
+        message: 'What is the Repository Link?'
+       
+    },
+
+    {
+        type: 'input',
         name: 'github',
         message: 'What is your GitHub username?'
        

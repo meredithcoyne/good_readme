@@ -1,6 +1,6 @@
 
   # j
-  ![License Badge](https://img.shields.io/github/license/meredith.coyne/undefined)
+  ![License Badge](https://img.shields.io/github/license/j/undefined)
   ## Description
   j
   ## Table of Contents
@@ -21,7 +21,7 @@
   This application is licensed under MIT.
 
   ## Contribution
-  undefined
+  j
 
   ## Testing
   undefined
@@ -29,6 +29,6 @@
   
   ## Questions?
   For any questions, please contact me via github or e-mail. 
-  GitHub: meredith.coyne
-  E-mail: meredith.coyne
+  GitHub: j
+  E-mail: j
   

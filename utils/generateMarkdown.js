@@ -64,11 +64,18 @@ function generateMarkdown(data) {
   ${data.test}
   ---
   
-  ## Questions?
+  ## Questions
   For any questions, please contact me via github or e-mail. 
   GitHub: ${data.github}
   E-mail: ${data.email}
   
+  ##Demo
+
+
+  ## Website 
+  Deployed: ${data.deployed}
+  Repository: ${data.repo}
+
 `;
   return markdownRender;
 }
