@@ -37,7 +37,7 @@ function generateMarkdown(data) {
 
   let markdownRender = `
   # ${data.title}
-  ![License Badge](https://img.shields.io/github/license/${data.github}/${data.repo})
+  ![MIT License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description
   ${data.description}
   ## Table of Contents

@@ -1,8 +1,8 @@
 
-  # Readme Generator
-  ![License Badge](https://img.shields.io/github/license/meredithcoyne/undefined)
+  # 
+  ![License Badge](https://img.shields.io/github/license//undefined)
   ## Description
-  Using Node.js application, allows user to create a template for a README file using command line prompts.
+  
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -12,16 +12,16 @@
   - [Questions](#questions)
   
   ## Installation
-  npm i
+  
 
   ## Usage
-  using node.js & command prompts
+  
 
   ## License
   This application is licensed under .
 
   ## Contribution
-  Just myself
+  
 
   ## Test
   undefined
@@ -30,14 +30,14 @@
   ## Questions
   For any questions, please contact me via github or e-mail. 
 
-  * Checkout my [GitHub profile](https://github.com/meredithcoyne)
+  * Checkout my [GitHub profile](https://github.com/)
   
-  * Any additional questions or feed back, feel free to [send an email](mailto:meredithleigh.coyne@gmail.com). 
+  * Any additional questions or feed back, feel free to [send an email](mailto:). 
   
   ##Demo
 
 
   ## Website 
-  Deployed: n/a
-  Repository: https://github.com/meredithcoyne/good_readme
+  Deployed: 
+  Repository: 
 
