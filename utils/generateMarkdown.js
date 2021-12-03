@@ -39,8 +39,10 @@ function generateMarkdown(data) {
   # ${data.title}
   ![MIT License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description
+  --------------
   ${data.description}
   ## Table of Contents
+  --------------
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -49,12 +51,15 @@ function generateMarkdown(data) {
   - [Questions](#questions)
   
   ## Installation
+  --------------
   ${data.installation}
 
   ## Usage
+  --------------
   ${data.usage}
 
   ## License
+  --------------
   This application is licensed under ${data.license}.
   
   Copyright 2021 Meredith Coyne
@@ -66,6 +71,7 @@ function generateMarkdown(data) {
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTI
 
   ## Contribution
+  --------------
   ${data.contribution}
 
   ## Test
@@ -73,14 +79,16 @@ function generateMarkdown(data) {
   ---
   
   ## Questions
+  --------------
   For any questions, please contact me via github or e-mail. 
 
   * Checkout my [GitHub profile](https://github.com/${data.github})
   
   * Any additional questions or feed back, feel free to [send an email](mailto:${data.email}). 
   
-  ##Demo
-
+  ## Demo
+  --------------
+  [videoName](videoname.mp4)
 
   ## Website 
   Deployed: ${data.deployed}
