@@ -36,7 +36,7 @@ const questions = [
     },
 
     {
-        type: 'input',
+        type: 'checkbox',
         name: 'license',
         message: 'What license is being used? (MIT,  GNU, or Apache)',
         choices: ['MIT', 'GNU', 'Apache']
