@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
@@ -88,20 +89,21 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, generateMarkdown(data), (err) =>
-    err ? console.error(err) : console.log('Success! Your README file has been created.')
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+  }
 
-)}
+
+
 
 
 // function initializes program
 function init() {
-    inquirer   
-        .prompt(questions).then((answers) => {
-            writeToFile('README.md', answers)
-        })
-}
-
+    inquirer.prompt(questions).then((answers) => {
+        console.log('Success! Your README file has been created.')
+            writeToFile('README.md', generateMarkdown({ ...answers }));
+        });
+      }
+  
 
 
 //Function call to initialize app
